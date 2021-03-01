@@ -1,3 +1,22 @@
 h1{
-	color:blue;
+	color:red;
+}
+.wrap{
+	display: flex;
+	justify-content: space-around; 
+}
+
+#photo img{
+	background-color: white;
+	width: 40%; 
+}
+
+#texte_intro{
+	background-color: white;
+	width: 100%;
+}
+
+#informations{
+	display: flex;
+	justify-content: space-around; 
 }
