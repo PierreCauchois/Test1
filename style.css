@@ -1,6 +1,58 @@
 h1{
-	color:red;
+	color:#CC0000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 10px
 }
+
+h2{
+	color:#2C2C2C;
+    font-family: 'Oswald', sans-serif;
+	line-height: 10px
+}
+
+
+h3{
+	text-transform: uppercase;
+	color: white;
+	background-color: #CC0000;
+	display: inline;
+	padding: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	line-height: 10px
+	margin-top : 15px;
+	margin-bottom: 15px;
+
+}
+
+h4{
+	color:#CC0000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top : 15px;
+	margin-bottom: 15px;
+}
+
+
+h5{
+	color:#2C2C2C;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	margin-top : 15px;
+	margin-bottom: 15px;
+
+}
+
+body{
+	color:#2C2C2C;
+	font-family: 'Oswald', sans-serif;
+}
+
+
 .wrap{
 	display: flex;
 	justify-content: space-around; 
@@ -8,15 +60,94 @@ h1{
 
 #photo img{
 	background-color: white;
-	width: 40%; 
+	width: 221px; 
 }
 
-#texte_intro{
+#texte_intro div{
 	background-color: white;
 	width: 100%;
+	margin-right: 170px
 }
 
-#informations{
+#informations {
 	display: flex;
-	justify-content: space-around; 
+	justify-content: text start; 
 }
+
+.progress-bar {
+	display: flex;
+	flex-direction: row;
+}
+
+.progress-bar1 {
+height: 15px;
+width: 75px;
+background-color: #2C2C2C
+}
+
+.progress-bar2 {
+height: 15px;
+width: 25px;
+background-color: grey;
+}
+
+.progress-bar3 {
+height: 15px;
+width: 80px;
+background-color: #2C2C2C
+}
+
+.progress-bar4 {
+height: 15px;
+width: 20px;
+background-color: grey;
+}
+
+.progress-bar5 {
+height: 15px;
+width: 50px;
+background-color: #2C2C2C
+}
+
+.progress-bar6 {
+height: 15px;
+width: 50px;
+background-color: grey;
+}
+
+.progress-bar7 {
+height: 15px;
+width: 90px;
+background-color: #2C2C2C
+}
+
+.progress-bar8 {
+height: 15px;
+width: 10px;
+background-color: grey;
+}
+
+.progress-bar9 {
+height: 15px;
+width: 95px;
+background-color: #2C2C2C
+}
+
+.progress-bar10 {
+height: 15px;
+width: 5px;
+background-color: grey;
+}
+
+.progress-bar11 {
+height: 15px;
+width: 70px;
+background-color: #2C2C2C
+}
+
+.progress-bar12 {
+height: 15px;
+width: 30px;
+background-color: grey;
+}
+
