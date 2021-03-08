@@ -33,8 +33,9 @@ h4{
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top : 15px;
-	margin-bottom: 15px;
+	margin-top : 10px;
+	margin-bottom: 0px;
+	font-size: 16px;
 }
 
 
@@ -42,14 +43,18 @@ h5{
 	color:#2C2C2C;
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
-	margin-top : 15px;
-	margin-bottom: 15px;
+	margin-top : 0px; 
+	margin-bottom: 0px;
+	font-size: 14px;
+
 
 }
 
 body{
 	color:#2C2C2C;
 	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+
 }
 
 
@@ -149,5 +154,11 @@ background-color: #2C2C2C
 height: 15px;
 width: 30px;
 background-color: grey;
+}
+
+.blocs_activites {
+display: flex;
+flex-direction: row;
+margin-right: 10%;
 }
 
